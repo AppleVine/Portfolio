@@ -1,6 +1,9 @@
 body {
     margin: 0px;
+    min-height: 100%;
 }
+
+/* Start of navigation bar */
 
 .logo {
     height: 50px;
@@ -66,3 +69,56 @@ body {
             height: 100px;
      }
 }
+
+/* End of navigation bar 
+
+Start of footer */
+
+footer {
+    text-align: center;
+    position: absolute;
+    display: flex;
+    background-color: #093F6A;
+    color: white;
+    bottom:0;
+    width:100%;
+    height: 100px;
+    }
+
+.contact-info {
+    width: 40%;
+    float: left;
+    margin: 0px 0px 0px 10px;
+    
+}
+
+.links {
+    width: 60%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.img-link {
+    width: 40px;
+    padding: 0px 5px;
+}
+
+footer h3 {
+    margin: 15px 0px 0px 0px;
+}
+
+@media screen and (min-width: 600px){
+    .img-link {
+        width: 60px;
+        padding: 0px 15px;
+    }
+
+}
+
+/* End of footer */ 
+
+     
