@@ -170,3 +170,30 @@ Start: homepage background photo of cats */
         margin: 10px;
     }
 }
+
+@media screen and (min-width: 1000px){
+    .top-left {
+
+    font-size: 1.25em;
+    margin: 20px;
+    }
+
+
+
+}
+
+/* End of background photo.
+Start of page content. */
+
+.home-header {
+    width: 100%;
+    text-align: center;
+}
+
+.home-header h2 {
+    margin: 5px 0px;
+}
+
+.home-header p {
+    margin: 5px 0px;
+}
