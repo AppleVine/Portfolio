@@ -205,9 +205,9 @@ Start of page content. */
 .home-container {
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 20px 0px;
+    height: 100px;
+    justify-content: center;
     
 }
 
@@ -217,7 +217,7 @@ Start of page content. */
     flex-wrap: wrap;
     width: 70%;
     justify-content: space-between;
-    
+    height: 100%;
 }
 
 .home-container-text h4 {
@@ -228,9 +228,28 @@ Start of page content. */
 .home-container img {
     width: 100px;
     height: 100px;
-
 }
 
 .home-container-text h6 {
+    margin: 5px;
+}
+
+.home-container-text p {
+    margin: 0px 0px 0px 5px;
+    font-size: 0.8em;
+}
+
+
+.read-more-div {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.read-more-button {
+    background-color: #093F6A;
+    color: white;
+    font-weight: 650;
+    align-items: flex-end;
     margin: 5px;
 }
