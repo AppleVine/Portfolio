@@ -197,3 +197,40 @@ Start of page content. */
 .home-header p {
     margin: 5px 0px;
 }
+
+
+
+/*Start of repeating element: home-container*/
+
+.home-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    
+}
+
+.home-container-text {
+    background-color: #B1E4F5;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+    
+}
+
+.home-container-text h4 {
+    margin: 5px;
+    
+}
+
+.home-container img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.home-container-text h6 {
+    margin: 5px;
+}
