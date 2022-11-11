@@ -208,7 +208,6 @@ Start of page content. */
     margin: 20px 0px;
     height: 100px;
     justify-content: center;
-    
 }
 
 .home-container-text {
@@ -225,10 +224,6 @@ Start of page content. */
     
 }
 
-.home-container img {
-    width: 100px;
-    height: 100px;
-}
 
 .home-container-text h6 {
     margin: 5px;
@@ -237,8 +232,13 @@ Start of page content. */
 .home-container-text p {
     margin: 0px 0px 0px 5px;
     font-size: 0.8em;
+    width: 100%;
 }
 
+.home-container img {
+    width: 100px;
+    height: 100px;
+}
 
 .read-more-div {
     display: flex;
@@ -252,4 +252,157 @@ Start of page content. */
     font-weight: 650;
     align-items: flex-end;
     margin: 5px;
+}
+
+/*End of home container.
+Start of 'about' page*/
+
+.banner {
+    background-color: #2F5472; 
+    color: white;
+    text-align: center;
+}
+
+.about-container {
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.about-container-contents {
+    background-color: #B1E4F5;
+    width: 90%;
+    height: 100%;
+}
+
+.about-container-contents h4 {
+    margin: 5px;
+    
+}
+
+.about-container-contents h6 {
+    margin: 5px;
+}
+
+.about-container-contents p {
+    margin: 10px;
+    font-size: 0.8em;
+}
+
+.about-container-contents img {
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px 10px 0px;
+}
+
+.share-space {
+    display: flex;
+    align-items: center;
+}
+
+/* End of 'about' page.
+Start of 'Blog' page. */
+
+.blog-container {
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.blog-container-contents {
+    background-color: #B1E4F5;
+    width: 90%;
+    height: 100%;
+}
+
+.blog-container-contents h4 {
+    margin: 5px;
+}
+
+.blog-container-contents h6 {
+    margin: 5px;
+}
+
+.blog-container-contents p {
+    margin: 10px;
+    font-size: 0.8em;
+}
+
+.blog-container-contents img {
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px 10px 0px;
+}
+
+.shared-title-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (min-width: 800px){
+    .shared-paragraph-photo {
+        display: flex;
+        position: relative;
+    }
+
+    .shared-paragraph-photo img {
+    width: 150px;
+    height: 150px;
+    }
+
+}
+
+
+/* End of Blog.
+Start of Projects [some shared from above] */
+
+.banner-projects {
+    background-color: #2F5472; 
+    color: white;
+    text-align: center;
+}
+
+.projects-projects h2 {
+    padding: 10px;
+}
+
+.projects-container {
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.projects-container-contents {
+    background-color: #B1E4F5;
+    width: 90%;
+    height: 100%;
+}
+
+.projects-container-contents h4 {
+    margin: 5px;
+}
+
+.projects-container-contents h6 {
+    margin: 5px;
+}
+
+.projects-container-contents p {
+    margin: 10px;
+    font-size: 0.8em;
+}
+
+.projects-container-contents img {
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px 10px 0px;
 }
