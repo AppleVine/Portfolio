@@ -4,7 +4,8 @@ body {
     background-color: #E2F8FF;
 }
 
-/* Start of navigation bar */
+/* Start of navigation bar 
+COMPONENT 1*/
 
 .logo {
     height: 50px;
@@ -73,7 +74,8 @@ body {
 
 /* End of navigation bar 
 
-Start of footer */
+Start of footer
+COMPONENT 4 */
 
 footer {
     text-align: center;
@@ -121,7 +123,8 @@ footer h3 {
 }
 
 /* End of footer
-Start: homepage background photo of cats */
+Start: homepage background photo of cats
+Component 2 */
 
 .background {
     width: 100%;
@@ -308,6 +311,8 @@ Start of 'about' page*/
     align-items: center;
 }
 
+
+<-- COMPONENT 3 RESUME BUTTON -->
 .resume {
     width: 100%;
     display: flex;
