@@ -4,8 +4,8 @@ body {
     background-color: #E2F8FF;
 }
 
-/* Start of navigation bar 
-COMPONENT 1*/
+/* Start of navigation bar
+Graphic component 1*/
 
 .logo {
     height: 50px;
@@ -72,11 +72,10 @@ COMPONENT 1*/
      }
 }
 
-/* End of navigation bar 
-
-Start of footer
-COMPONENT 4 */
-
+/* End of graphic component 1
+End of navigation bar 
+Start of footer*/
+/* Text component 2*/
 footer {
     text-align: center;
     position: relative;
@@ -94,6 +93,8 @@ footer {
     margin: 0px 0px 0px 10px;
     
 }
+
+/* Text component 2*/
 
 .links {
     width: 60%;
@@ -124,7 +125,7 @@ footer h3 {
 
 /* End of footer
 Start: homepage background photo of cats
-Component 2 */
+Graphic component 3*/
 
 .background {
     width: 100%;
@@ -185,7 +186,8 @@ Component 2 */
 
 }
 
-/* End of background photo.
+/* End: graphic component 3 
+End of background photo.
 Start of page content. */
 
 .home-header {
@@ -311,8 +313,7 @@ Start of 'about' page*/
     align-items: center;
 }
 
-
-/* COMPONENT 3 RESUME BUTTON */
+/*Text component 3*/
 .resume {
     width: 100%;
     display: flex;
@@ -338,9 +339,11 @@ Start of 'about' page*/
 	background: #fff;
 	color: #093F6A;
 }
-
-/* End of 'about' page.
-Start of 'Blog' page. */
+/*End: text component 3
+End of 'about' page.
+Start of 'Blog' page. 
+Text component 1
+Graphic component 4 */
 
 .blog-container {
     width: 100%;
@@ -393,10 +396,20 @@ Start of 'Blog' page. */
     height: 150px;
     }
 
+    .blog-container-contents h4 {
+        font-size: 20px;
+    }
+    
+    .blog-container-contents h6 {
+        font-size: 16px;
+    }
+
 }
 
 
 /* End of Blog.
+End of text component 1
+End of Graphic component 4
 Start of Projects [some shared from above] */
 
 .banner-projects {

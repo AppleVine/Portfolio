@@ -1,3 +1,34 @@
+Readme requirements:
+
+1: charming-cucurucho-0349a3.netlify.app
+
+2: https://github.com/AppleVine/portfolio
+
+3: 
+
+4:
+The purpose of this website is to provide a portfolio of my current abilities in the course, while making it compartmental so that I am able to easily improve on it in future and add relevent information later.
+
+The main functions of this website are:
+    Links my social/professional media, my resume, work & education history. Navigation through the website gives various insights into me & my history along with showing my ability to create the space using html & css.
+
+
+![Sitemap](./docs/sitemap.png)
+
+Screenshots:
+    Screenshos of the mockups are in JakebIanCockburn_T1A2/docs/mockup
+
+Target audience: 
+    The educators of Coder Academy. Future prospects, myself.
+
+Tech stack: 
+    HTML, CSS, Figma, Sitemap, Google Slides, Nelify. 
+
+
+
+
+List of references for images I don't own:
+
 Cat logo taken from: https://commons.wikimedia.org/wiki/File:Cryptocat_logo_new.png
 
 LinkedIn: https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_black-512.png
