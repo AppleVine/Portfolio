@@ -251,7 +251,11 @@ Start of page content. */
     color: white;
     font-weight: 650;
     align-items: flex-end;
-    margin: 5px;
+    margin: 10px;
+    text-decoration: none;
+    outline: solid black 2px;
+    margin-top: auto;
+    padding: 2px;
 }
 
 /*End of home container.
