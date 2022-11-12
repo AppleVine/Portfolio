@@ -308,6 +308,31 @@ Start of 'about' page*/
     align-items: center;
 }
 
+.resume {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-button {
+	display: inline-block;
+	background: #093F6A;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 38px;
+	border-radius: 50px;
+	width: 170px;
+	text-align: center;
+    margin: 20px;
+
+}
+
+.resume-button:hover {
+	background: #fff;
+	color: #093F6A;
+}
+
 /* End of 'about' page.
 Start of 'Blog' page. */
 
