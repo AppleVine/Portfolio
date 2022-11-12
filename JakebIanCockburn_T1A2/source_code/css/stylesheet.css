@@ -312,11 +312,12 @@ Start of 'about' page*/
 }
 
 
-<-- COMPONENT 3 RESUME BUTTON -->
+/* COMPONENT 3 RESUME BUTTON */
 .resume {
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .resume-button {
@@ -406,6 +407,7 @@ Start of Projects [some shared from above] */
 
 .projects-projects h2 {
     padding: 10px;
+    
 }
 
 .projects-container {
